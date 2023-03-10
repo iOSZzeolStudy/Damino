@@ -17,10 +17,10 @@
             location = "group:StartTab.swift">
          </FileRef>
          <FileRef
-            location = "group:TextGrids.swift">
+            location = "group:Introduction.swift">
          </FileRef>
          <FileRef
-            location = "group:Introduction.swift">
+            location = "group:TextGrids.swift">
          </FileRef>
          <Group
             location = "group:Assets.xcassets"

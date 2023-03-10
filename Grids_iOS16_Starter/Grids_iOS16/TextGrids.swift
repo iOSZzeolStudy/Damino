@@ -31,7 +31,39 @@ struct TextGrids: View {
         NavigationStack {
             VStack {
                 TitleRow(sampleImage: $sampleImage, title: "Text Grids", image:  .Ex3)
-                // Grid Goes here
+                Grid(alignment: .leading) {
+                    GridRow {
+                        Text("Country")
+                        Text("Leader")
+                            .gridCellColumns(2)
+                            .gridCellAnchor(.center)
+                    }
+                    .bold()
+                    Divider()
+                        .gridCellUnsizedAxes([.horizontal])
+                    ForEach(Leader.samples) { leader in
+                        GridRow {
+                            Text(leader.country)
+                            Text(leader.firstName)
+                                .gridColumnAlignment(.trailing)
+                            Text(leader.lastName)
+                        }
+                        GridRow {
+                            Text("Poppulation:").bold()
+                            Text("\(leader.population)")
+                        }
+                        Divider()
+                            .gridCellUnsizedAxes([.horizontal])
+                    }
+                }
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.teal
+                        .gradient
+                        .opacity(0.8)
+                        .shadow(.drop(radius: 20))
+                    )
+                )
                 Spacer()
             }
             .navigationTitle("Text Grids")
