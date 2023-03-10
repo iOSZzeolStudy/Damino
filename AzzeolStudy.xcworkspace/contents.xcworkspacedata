@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../Cards"
+      name = "Cards">
+      <Group
+         location = "group:Cards"
+         name = "Cards">
+         <FileRef
+            location = "group:CardsApp.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PersonCardView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Person.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:headerImage1.imageset"
+               name = "headerImage1.imageset">
+               <FileRef
+                  location = "group:entrepreneur-593358_1920.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:profileImage2.imageset"
+               name = "profileImage2.imageset">
+               <FileRef
+                  location = "group:happy-gb54ac942f_1920.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:headerImage2.imageset"
+               name = "headerImage2.imageset">
+               <FileRef
+                  location = "group:work-2196609_1920.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:profileImage1.imageset"
+               name = "profileImage1.imageset">
+               <FileRef
+                  location = "group:beard-ga2c0898fa_1920.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:ContentView.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Cards.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../ToDoWithRealm"
+      name = "ToDoWithRealm">
+      <Group
+         location = "group:ToDoWithRealm"
+         name = "ToDoWithRealm">
+         <FileRef
+            location = "group:RealmManager.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Components"
+            name = "Components">
+            <FileRef
+               location = "group:TaskRow.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SmallAddButton.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:AddTaskView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TasksView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ContentView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Task.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:ToDoWithRealmApp.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ToDoWithRealm.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
