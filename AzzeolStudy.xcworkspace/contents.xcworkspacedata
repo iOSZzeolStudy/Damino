@@ -2,6 +2,75 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:SwiftUIMemo"
+      name = "SwiftUIMemo">
+      <Group
+         location = "group:SwiftUIMemo"
+         name = "SwiftUIMemo">
+         <Group
+            location = "group:Memory"
+            name = "Memory">
+            <FileRef
+               location = "group:Memo.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MemoStore.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CoreData"
+            name = "CoreData">
+            <FileRef
+               location = "group:Persistence.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SwiftUIMemo.xcdatamodeld">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:MainListView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftUIMemoApp.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:SwiftUIMemo.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Grids_iOS16_Starter"
       name = "Grids_iOS16_Starter">
       <FileRef
