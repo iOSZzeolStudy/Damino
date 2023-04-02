@@ -19,23 +19,24 @@ struct DetailView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
+    // NavigationView로 .toolbar를 감싸야함!
+    NavigationView {
         VStack {
             ScrollView {
                 VStack {
+                    Text(memo.insertDate, style: .date)
+                        .padding()
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
                     HStack {
                         Text(memo.content)
                             .padding()
                         Spacer(minLength: 0)
                     }
-                    Text(memo.insertDate, style: .date)
-                        .padding()
-                        .font(.footnote)
-                        .foregroundColor(.secondary)
                 }
             }
+            
         }
-        .navigationTitle("메모 보기")
-        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .bottomBar) {
                 Button  {
@@ -54,7 +55,7 @@ struct DetailView: View {
                 } message: {
                     Text("메모를 삭제할까요?")
                 }
-
+                
                 Button {
                     showCompoesr = true
                 } label: {
@@ -62,6 +63,9 @@ struct DetailView: View {
                 }
             }
         }
+    }
+    .navigationTitle("메모 보기")
+    .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $showCompoesr) {
             ComposeView(memo: memo)
         }

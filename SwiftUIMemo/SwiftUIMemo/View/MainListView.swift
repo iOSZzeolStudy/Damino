@@ -24,7 +24,7 @@ struct MainListView: View {
                 }
                 .onDelete(perform: store.delete)
             }
-            .listStyle(.plain)
+            .listStyle(.automatic)
             .navigationTitle("내 메모")
             .toolbar {
                 Button {
@@ -40,7 +40,7 @@ struct MainListView: View {
                 
         }
         //요거 없으면 DetailView에서 툴바 아이콘이 표시가 안됨
-        .navigationViewStyle(.stack)
+//        .navigationViewStyle(.stack)
     }
 }
 
